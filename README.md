@@ -8,10 +8,3 @@ This project simulates and analyzes the correlation between environmental condit
 ## Dashboard
 
 This repo facilitates the deployment for the dashboard on Streamlit. The parent repo for the project is [here](https://github.com/cylinderStudio/RP2040-Supabase-Data-Engineering-Project).
-
----
-
-## Live Dashboard
-
-[Streamlit App (Demo)](LINK_HERE)  
-*(Replace with actual URL)*

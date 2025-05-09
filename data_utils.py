@@ -5,8 +5,8 @@ import streamlit as st
 @st.cache_data(show_spinner=True)
 def load_data_package():
     # === Load credentials and connect to Supabase ===
-    url = st.secrets.db_credentials.DB_URL
-    key = st.secrets.db_credentials.DB_API_KEY
+    url = st.secrets["DB_URL"]
+    key = st.secrets["DB_API_KEY"]
     supabase = create_client(url, key)
     
     return_object = {}
